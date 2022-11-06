@@ -41,7 +41,7 @@ submit1.addEventListener("click", function(e){
   document.getElementById('sgpa1').innerText = `SGPA for Physics Cycle : ${sgpa1}`;
   document.getElementById('sgpa2').innerText = `SGPA for Chemistry Cycle : ${sgpa2}`;
   document.getElementById('cgpa').innerText = `CGPA for First Year : ${cgpa}`;
-
+  clearAll()
 })
 
 function clearAll(){
