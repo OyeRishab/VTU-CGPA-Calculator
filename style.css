@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; 
+  text-align: center;
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+  font-size: 20px;
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+label {
+  margin: 5px 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+h5 {
+  margin: 0;
+  margin-top: -20px;
+  font-weight: 200;
+}
+
+@media (min-width:550px) {
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.subjects, .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#submit1 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin:25px 0 35px 0;
+  padding: 15px 30px;
+  background-color: #fcb316;
+  border: #fcb316;
+  border-radius: 30px;
+}
+
+#submit1:hover, 
+#submit1:focus {
+  cursor: pointer;
+  background-color: #aa7502;
+  transition: 2ms;
+}
+
+#result {
+  width: 95%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  padding: 10px 0;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <link rel="icon" href="https://vtu.ac.in/wp-content/uploads/2019/03/vtulogo.png" sizes="192x192">
+  <link rel="stylesheet" href="style.css">
+  <title>VTU CGPA Calculator</title>
+</head>
+<body>
+  <h1>VTU CGPA Calculator</h1>
+  <h2>For 1st and 2nd SEM<br>2021 Scheme</h2>
+  <h5>Enter either semester marks and press submit</h5>
+  <main>
+
+    <section>
+      <h2>Physics Cycle</h2>
+      <form>
+        <div class="subjects">
+          <label for="mat">21MAT11</label>
+          <label for="phy">21PHY12/22</label>
+          <label for="ele">21ELE13/23</label>
+          <label for="civ">21CIV14/24</label>
+          <label for="evn">21EVN15/25</label>
+          <label for="phyl">21PHYL16/26</label>
+          <label for="elel">21ELEL17/27</label>
+          <label for="egh">21EGH18/28</label>
+          <label for="idt">21IDT19/29</label>
+        </div>
+        <div class="inputs">
+          <input id="mat" class="subject" type="text" maxlength="2" required>
+          <input id="phy" class="subject" type="text" maxlength="2" required>
+          <input id="ele" class="subject" type="text" maxlength="2" required>
+          <input id="civ" class="subject" type="text" maxlength="2" required>
+          <input id="evn" class="subject" type="text" maxlength="2" required>
+          <input id="phyl" class="subject" type="text" maxlength="2" required>
+          <input id="elel" class="subject" type="text" maxlength="2" required>
+          <input id="egh" class="subject" type="text" maxlength="2" required>
+          <input id="idt" class="subject" type="text" maxlength="2" required>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Chemistry Cycle</h2>
+      <form>
+        <div class="subjects">
+          <label for="mat2">21MAT21</label>
+          <label for="che">21CHE12/22</label>
+          <label for="psp">21PSP13/23</label>
+          <label for="eln">21ELN14/24</label>
+          <label for="eme">21EME15/25</label>
+          <label for="chel">21CHEL16/26</label>
+          <label for="cpl">21CPL17/27</label>
+          <label for="egh2">21EGH18/28</label>
+          <label for="sfh">21SFH19/29</label>
+        </div>
+        <div class="inputs">
+          <input id="mat2" class="subject" type="text" maxlength="2" required>
+          <input id="che" class="subject" type="text" maxlength="2" required>
+          <input id="psp" class="subject" type="text" maxlength="2" required>
+          <input id="eln" class="subject" type="text" maxlength="2" required>
+          <input id="eme" class="subject" type="text" maxlength="2" required>
+          <input id="chel" class="subject" type="text" maxlength="2" required>
+          <input id="cpl" class="subject" type="text" maxlength="2" required>
+          <input id="egh2" class="subject" type="text" maxlength="2" required>
+          <input id="sfh" class="subject" type="text" maxlength="2" required>
+        </div>
+      </form>
+    </section>
+
+  </main>
+  <button id="submit1" type="submit">Submit</button>
+  
+  <div id="result">
+    <h2>CGPA</h2>
+    <h3 id="sgpa1">SGPA for Physics Cycle :</h3>
+    <h3 id="sgpa2">SGPA for Chemistry Cycle :</h3>
+    <h3 id="cgpa">CGPA for First Year :</h3>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
