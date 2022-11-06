@@ -5,6 +5,12 @@ body {
   text-align: center;
 }
 
+header {
+  width: 95%;
+  margin: 0 auto;
+  background-color: rgb(225, 252, 225);
+}
+
 form {
   width: 250px;
   margin: 0 auto;
